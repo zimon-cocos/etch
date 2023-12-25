@@ -1,0 +1,25 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas{
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 600px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.gamecube{
+    display: flex;
+    flex: 1 1 130px;
+    background-color: lawngreen;
+
+    
+}
