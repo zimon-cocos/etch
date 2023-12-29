@@ -13,12 +13,12 @@ body{
     flex-direction: row;
     width: 700px;
     height: 600px;
-    gap: 16px;
+    gap: 4px;
     flex-wrap: wrap;
 }
 
 .gamecube{
     display: flex;
-    flex: 1 1 130px;
+    flex: 1 1 140px;
     background-color: lawngreen;
 }

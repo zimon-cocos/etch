@@ -7,6 +7,13 @@ function squaresmaker(boxAmount){
     newdiv.classList.add("gamecube")
     newdiv.innerText = "AB"
     canvas.appendChild(newdiv)
+    const gamecubes = document.querySelectorAll(".gamecube")
+    for(let i = 0; i<gamecubes.length; i++){
+    gamecubes[i].addEventListener("mouseover",e=>{
+        gamecubes[i].style.backgroundColor="red"
+    })
+}
+
 
 }
 }
@@ -27,13 +34,8 @@ amountBtn.addEventListener("click",()=>{
 
 })
 
-const gamecubes = document.querySelectorAll(".gamecube")
 
-for(let i = 0; i<gamecubes.length; i++){
-    gamecubes[i].addEventListener("mouseover",e=>{
-        gamecubes[i].style.backgroundColor="red"
-    })
-}
+
 
 
 
