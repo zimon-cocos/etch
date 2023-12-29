@@ -1,6 +1,7 @@
 body{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     background-color: gray;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,4 @@ body{
     display: flex;
     flex: 1 1 130px;
     background-color: lawngreen;
-
-    
 }
