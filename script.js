@@ -5,7 +5,6 @@ function squaresmaker(boxAmount){
     for(let i = 0; i< boxAmount ;i++){
     newdiv = document.createElement("div")
     newdiv.classList.add("gamecube")
-    newdiv.innerText = "AB"
     canvas.appendChild(newdiv)
     const gamecubes = document.querySelectorAll(".gamecube")
     for(let i = 0; i<gamecubes.length; i++){
