@@ -1,5 +1,5 @@
 const canvas = document.getElementById("canvas")
-const amountBtn = document.getElementById("amountBtn")
+const amountBtn = document.getElementById("amountbtn")
 
 function squaresmaker(boxAmount){
     for(let i = 0; i< boxAmount ;i++){

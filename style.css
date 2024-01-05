@@ -2,29 +2,33 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(87,67,67,1) 100%);
     justify-content: center;
     align-items: center;
+    flex: 1;
+    margin: 0;
 }
 
 #canvas{
     background-color: purple;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     gap: 4px;
     flex-wrap: wrap;
+    margin: 32px;
 }
 
 .gamecube{
     display: flex;
-    flex: 1 1 140px;
+    flex: 1 1 100px;
     background-color: lawngreen;
 }
 
 #content{
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     margin: 16px;
@@ -32,11 +36,53 @@ body{
 
 #footer{
     display: flex;
-    flex-grow: 1;
     flex-shrink: 1;
     align-items: center;
     justify-content: center;
     width: 1920px;
     height: 24px;
-    background-color: lightblue;
+    background-color: navy;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 8px;
+}
+
+#header{
+    display: flex;
+    flex-shrink: 1;
+    background-color: navy;
+    height: auto;
+    min-height: 100px;
+    max-height: 128px;
+    min-width: 1920px;
+    align-items: center;
+    justify-content: start;
+    font-size: xx-large;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    margin-bottom: 128px;
+
+}
+
+#header div{
+    margin: 16px;
+}
+
+#amountbtn{
+    width: 256px;
+    height: 45px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(180,87,58,1) 20%, rgba(253,98,29,1) 100%);
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border: 0;
+    
+}
+
+#githublogo{
+    width: 24px;
+    height: auto;
 }
