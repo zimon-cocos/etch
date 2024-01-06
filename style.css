@@ -11,16 +11,16 @@ body{
     background-color: purple;
     display: flex;
     flex-direction: row;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     flex-wrap: wrap;
     margin: 32px;
 }
 
 .gamecube{
     display: flex;
-    flex: 1 1 120px;
-    background-color: lawngreen;
+    flex: 1 1 130px;
+    background-color: whitesmoke
 }
 
 #content{

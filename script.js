@@ -9,7 +9,7 @@ function squaresmaker(boxAmount){
     const gamecubes = document.querySelectorAll(".gamecube")
     for(let i = 0; i<gamecubes.length; i++){
     gamecubes[i].addEventListener("mouseover",e=>{
-        gamecubes[i].style.backgroundColor="red"
+        gamecubes[i].style.backgroundColor="gray"
     })
 }
 
