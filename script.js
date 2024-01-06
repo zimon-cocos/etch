@@ -20,7 +20,7 @@ function squaresmaker(boxAmount){
 squaresmaker(16)
 
 amountBtn.addEventListener("click",()=>{
-    let boxAmount = parseInt(prompt("Kolko chces stvorcov? Menej ako 100 prosim"))
+    let boxAmount = parseInt(prompt("Kolko chces buniek? Menej ako 100 prosim"))
     if(boxAmount>100){
         const boxAmount = parseInt(prompt("Kolko chces stvorcov? Menej ako 100 prosim"))
     }
